@@ -17,10 +17,15 @@
 salary_report/
 │
 ├── main.py                  # Точка входа
+
 ├── reports/                 # Отчёты (реализован payout)
+
 ├── utils/                   # Утилиты (в т.ч. csv_parser)
+
 ├── data/                    # CSV-файлы с данными
+
 ├── tests/                   # тесты
+
 └── requirements.txt         # зависимости
 
 
@@ -57,7 +62,9 @@ Design
 
 Добавить симлинки:
    ln -s data/data1.csv data1.csv
+   
    ln -s data/data2.csv data2.csv
+   
    ln -s data/data3.csv data2.csv
 
    python3 -m main data1.csv data2.csv data3.csv --report payout

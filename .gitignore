@@ -1,0 +1,37 @@
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# VS Code settings
+.vscode/
+
+# Virtual environment
+venv/
+.env/
+*.env
+
+# Pytest cache
+.pytest_cache/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Test run artifacts
+*.pytest_cache
+.cache/
+*.log
+
+# Jupyter (если вдруг появятся)
+.ipynb_checkpoints/
+
+# Ignore CSV test data if не должно быть в репо
+data*.csv
+
+# Bytecode
+*.pyc
+
+# Ignore core dump files
+*.core
